@@ -29,7 +29,7 @@ spec:
           value: http://mood-sensors.dev.openso.online/activate
         - name: SENSORS_MEASURE_API
           value: http://mood-sensors.dev.openso.online/measure
-        image: harbor.tanzuworld.com/tap-dev/mood-portal-myteam@sha256:8e5e3b8f36918d553e1ba438de399f3aaf158b902eeeda3a21f0fec336039ba0
+        image: harbor.tanzuworld.com/tap-dev/mood-portal-myteam@sha256:673b440935b73697d2f7796dbb72bfb377d6aecc7382b1d33617f10fd9c97f24
         name: workload
         resources: {}
         securityContext:
