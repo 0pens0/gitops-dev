@@ -29,7 +29,7 @@ spec:
         carto.run/workload-name: mood-analyzer
     spec:
       containers:
-      - image: harbor.tanzuworld.com/tap-dev/mood-analyzer-myteam@sha256:b72e5f664dc7cce0e2f86dde6c0fefec1a776f357ab7cacae9eee10be90e1492
+      - image: harbor.tanzuworld.com/tap-dev/mood-analyzer-myteam@sha256:540f1c2515bcd2ce3f3457bd312c062226fe0473fa6c9586e433c2fcc20aedf0
         name: workload
         resources: {}
         securityContext:
